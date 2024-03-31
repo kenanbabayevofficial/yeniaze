@@ -16,7 +16,7 @@
   group: 
 CMD*/
 
-if (user.telegramid ==1789993737){
+if (user.telegramid ==1143980741){
 Bot.setProperty("admin_chat",user.telegramid,"string")
 Bot.setProperty("adminID",user.telegramid,"string")
 Bot.sendMessage("*You are now Admin With* `" +user.telegramid+ "` *ID*\n\nSend /admin")
