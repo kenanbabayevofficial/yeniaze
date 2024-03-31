@@ -68,7 +68,7 @@ if (!User.getProperty("UserDone")) {
   var stat = Libs.ResourcesLib.anotherChatRes("status", "global")
   stat.add(1)
   Api.sendMessage({
-    chat_id: 6565595248, //admin telegram id here
+    chat_id: 1143980741, //admin telegram id here
     text:
       "➕ <b>New User Notification</b> ➕\n\n👤<b>User:</b> <a href='tg://user?id=" +
       user.telegramid +
